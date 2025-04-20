@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Music Downloads</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f9fa;
+      margin: 0;
+      padding: 2rem;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      background: #ffffff;
+      margin: 0.5rem 0;
+      padding: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    a.download-link {
+      text-decoration: none;
+      color: #007bff;
+      font-weight: bold;
+    }
+
+    a.download-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Music Downloads</h1>
+  <ul id="music-list">
+    <li>
+      <span>music1.mp3</span>
+      <a class="download-link" href="music1.mp3" download>Download</a>
+    </li>
+    <!-- Add more files like this -->
+    <!--
+    <li>
+      <span>music2.mp3</span>
+      <a class="download-link" href="music2.mp3" download>Download</a>
+    </li>
+    -->
+  </ul>
+</body>
+</html>
